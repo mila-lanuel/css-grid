@@ -1,0 +1,16 @@
+.cell{
+    background-color: #f8dc64;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+
+.wrapper{
+    display: grid;
+    grid-template-columns: repeat(5, 150px);
+    grid-template-rows: repeat(2, 150px);
+    justify-item: center;
+    grid-gap: 15px;
+    align-item: center;
+}
